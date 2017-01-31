@@ -16,10 +16,8 @@ class App extends Component {
     var $ = require('jquery');
 
     var URL = "https://api.instagram.com/v1/users/self/media/recent/?"
-    var token = "27953104.1677ed0.eda7f0f438e643d48e36015737dc0da8"
+    var token = "2285620695.1677ed0.cb253a203c414f32ad38fcf18c8acb0f"
     var urlForSearch = URL + "access_token=" + token + "&count=10&callback=?"
-
-
 
     $.getJSON(
             urlForSearch,
