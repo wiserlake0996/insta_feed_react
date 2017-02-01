@@ -21,9 +21,43 @@
 
 .instagram-card-image{
   width: 350px;
+  padding: 3px;
+
 }
 
 
+.instagram-preview-card{
+  margin: 10px;
+  width:220px; height:auto;
+}
+
+
+
+.instagram-preview-card-image{
+  width: 220px;
+  padding: 3px;
+}
+
+.img-comments{
+  padding-right: 5px;
+  font-family: 'Slabo 27px', serif;
+
+}
+
+
+.img-likes{
+  padding-right: 5px;
+  font-family: 'Slabo 27px', serif;
+
+}
+
+.img-date{
+  font-family: 'Slabo 27px', serif;
+}
+
+.img-caption{
+font-family: 'Slabo 27px', serif;
+}
 
 /*** iphone 6+ ***/
 /* Portrait */

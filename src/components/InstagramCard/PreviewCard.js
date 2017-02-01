@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Card.css';
 
-class InstagramCard extends Component{
+class InstagramPreviewCard extends Component{
 
   render(){
 
@@ -20,9 +20,9 @@ class InstagramCard extends Component{
 
     return(
 
-        <div className="w3-card-12 instagram-card">
+        <div className="w3-card-12 instagram-preview-card">
           <a href={data.link}>
-            <img className="instagram-card-image" src={data.images.standard_resolution.url} alt="Norway" />
+            <img className="instagram-preview-card-image" src={data.images.standard_resolution.url} alt="Norway" />
             </a>
             <div className="w3-container w3-center">
               <div className="tools">
@@ -38,7 +38,7 @@ class InstagramCard extends Component{
                   <span className="img-date">
                     {displayDate}
                   </span>
-                  <i className="material-icons">schedule</i>
+
                 </div>
               </div>
               <p className="img-caption">
@@ -52,4 +52,4 @@ class InstagramCard extends Component{
 }
 
 
-export default InstagramCard;
+export default InstagramPreviewCard;

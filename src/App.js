@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import './App.css';
 import InstagramCard from './components/InstagramCard/Card'
 
+import InstagramPreviewCard from './components/InstagramCard/PreviewCard'
+
 
 class App extends Component {
 
   state = {
     instaData:null
   }
-
-
 
   requestInstaData (){
     var $ = require('jquery');
@@ -41,6 +41,7 @@ class App extends Component {
 
     if(this.state.instaData){
       displaydata = this.state.instaData.map(function(thed){
+
         return (<InstagramCard key={thed.id} data={thed}/>);
       })
     }
